@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Button } from "../components/ui/button";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         <p className="text-lg md:text-xl max-w-2xl mb-6">
           Recursos físicos y digitales hechos con amor para transformar aulas en espacios mágicos.
         </p>
+        <Button className="text-lg px-6 py-3 rounded-2xl shadow-lg hover:scale-105 transition-all">
+          Ver productos
+        </Button>
       </motion.section>
     </div>
   );
